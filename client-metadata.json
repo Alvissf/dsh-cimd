@@ -1,0 +1,17 @@
+{
+  "client_id": "https://alvissf.github.io/dsh-cimd/client-metadata.json",
+  "client_name": "DeepSeek Harness MCP Manager",
+  "client_uri": "https://github.com/Alvissf",
+  "redirect_uris": [
+    "http://localhost:3341/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "profile.read journal.read mood.read activity.read activity.write health.summary.read health.summary.write nutrition.read nutrition.write location.read"
+}
